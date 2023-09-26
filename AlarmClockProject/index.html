@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM CLOCK</title>
+</head>
+<body>
+    <div class="center">
+        <h1 class="title"> Alarm Clock</h3>
+
+            <div>
+                <h2 id="showTime">Getting the real time</h2>
+
+                <div class="alarmtimebody">
+                    <label>
+                        <div>
+                            <select class="time" id="hour"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="min"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="sec"></select>
+                        </div>
+                    </label>
+                    <label>
+                        <div>
+                            <select class="time" id="ampm"></select>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Add new alarm, it will also add it to the recent list of alarm  -->
+            <button id="setAlarmButton">Set Alarm</button>
+
+            <!-- Clear button to stop the alarm sound after it starts ringing  -->
+            <button id="deleteAlarm">Stop Alarm</button>
+
+            <div>
+                <h3 id="allsetalarm">All Set Alarms</h3>
+                <hr>
+                <!-- Here will be the list of all recent alarm set by the user -->
+                <ul id="incomplete-alarms">
+                </ul>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

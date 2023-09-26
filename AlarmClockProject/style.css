@@ -1,0 +1,107 @@
+
+.html,
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    color: white;
+
+}
+.center {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(lordshiva.jpg);
+    background-size: cover;
+    padding-top: 3rem;
+}
+
+#realtime {
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.alarmtimebody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:1rem;
+}
+
+#setAlarmButton {
+    background: rgba(206, 233, 206, 0.8);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+#setAlarmButton:hover{
+    background-color: rgb(138, 219, 138);
+    transition: ease-in-out 0.5s;
+}
+
+#deleteAlarm {
+    background: rgba(206, 233, 206, 0.8);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 6px;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+#deleteAlarm:hover{
+    background-color: rgb(240, 125, 125);
+    transition: ease-in-out 0.5s;
+
+}
+
+.time {
+    width: 100%;
+    padding: 0.6rem 0.6rem;
+    background: rgb(239, 198, 198);
+    border-radius: 6px;
+    border-color: white;
+    
+}
+
+#allsetalarm {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+#showTime{
+    color: wheat;
+}
+
+hr {
+    margin-top: 30px;
+    width: 70%;
+}
+
+button.delete {
+    background: rgba(251, 4, 4, 0.5);
+    border: none;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);
+    margin: 0.3em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    letter-spacing: 0.1em;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.7rem;
+    border-radius: 10px;
+} 
